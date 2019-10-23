@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px;height:650px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;height:650px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:650px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:650px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:650px;color: #fff; background-color: #009688;}
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">ROAM</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Home</a></li>
+          <li><a href="#section2">Training Routines</a></li>
+          <li><a href="#section3">Training Courses</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Programs<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">6-week</a></li>
+              <li><a href="#section42">12-week</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="signin.html"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+          <li><a href="signup.html"><span class="glyphicon glyphicon-log-in"></span> Signup</a></li></ul>
+          <form class="navbar-form navbar-right" action="SearchResults.html">
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+  <h1>ROAM</h1>
+  <p>ROAM gives you easy access for learning from everywhere.</p>
+  <p>We are here to teach everyone something new everyday.</p>
+  <p>You learn new things everyday on your own.</p>
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Training Routines</h1>
+  <p>Our Trainers are prepared for new challenges everyday.</p>
+  <p>Trainer will teach you various things. Things that are useful for everyone that is interested in Full Stack Technologies.</p>
+</div>
+<div id="section3" class="container-fluid">
+  <h1>Courses</h1>
+  <p>Some of the courses are:</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section41" class="container-fluid">
+  <h1>Programs</h1>
+  <p>Programs is divided into two parts</p>
+  <p>6-week and 12-week course for your convenience.</p>
+  <p>6-week course can be taken by you if you have previous knowledge of the subject or are comfortable with it.</p>
+</div>
+<div id="section42" class="container-fluid">
+  <h1>Programs</h1>
+  <p>12-week course cover the detailed structure of the course you are taking.</p>
+  <p></p>
+</div>
+
+</body>
+</html>

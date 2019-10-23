@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Page</title>
+	<style type="text/css">
+		body{font-family: Arial,Helvetica,sans-serif;
+			background-image: linear-gradient(tomato,skyblue,powderblue);
+			font-size: 13px;
+			}
+		input[type=text],[type=password]{
+			width: 100%;
+			padding: 12px 20px;
+			display: inline-block;
+			border: 1px solid #ccc;
+			box-sizing: border-box;
+			margin: 13px 0 13px 0;
+		}
+		button{
+			background-color: mediumseagreen;
+			color:white;
+			padding: 14px 20px;
+			border:none;
+			cursor: pointer;
+			width: 100%;
+		}
+		button:hover{
+			opacity: 0.8;
+		}
+		div.imgcontainer{
+			text-align: center;
+			margin: 24px 0 12px 0;
+		}
+		img.avatar{
+			width: 23%;
+			border-radius: 20%;
+		}
+		span.psw{
+			float: right;
+		}
+		.container{
+			padding:16px;
+		}
+		.loginbtn{
+			text-align: center;
+			width: 15%;
+			padding: 10px 18px;
+			background-color: green;
+			margin: 0, 20px, 60px, 30px;
+		}
+	</style>
+</head>
+<body>
+	<h2 style="text-align: center;"> Login for Mentor</h2>
+	<form action="trainerhome.html">
+		<div class="imgcontainer">
+			<img src="avatar2.png" alt="Avatar" class="avatar">
+		</div>
+		<div class="container">
+			<label for="uname"><b>Username</b></label><br>
+			<input type="text" name="uname" placeholder="Enter Username" required><br><br>
+			<label for="psw"><b>Password</b></label><br>
+			<input type="password" placeholder="Enter Password" name="psw" required><br><br>
+			<label>
+				<input type="checkbox" checked="checked" name="remember">Remember me
+			</label><br><br><br>
+			<a href="trainerhome.html"><button class="loginbtn" align="center" type="submit">Login</button></a>
+			<span class="psw"><a href="signup.html">Forgot password?/Signup</a></span>
+		</div>
+		<br>
+	</form>
+</body>
+</html>
